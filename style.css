@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color:#6665ED;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    min-width: 35%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+
+input {
+    width:90%;
+    font-size: 2rem;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    color: #fff;
+    background: #6665ED;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #8080f3;
+    transition: 0.2s;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+#messageDelivered {
+    font-size: 2rem;
+    color: #0dd617;
+}
